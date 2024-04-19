@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur | Euro-FCFA-Naira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-child">
+            <form>
+                <div class="titre">Covertisseur</div>
+                <div class="montantline">
+                    <label for="cfa">Montant CFA</label>
+                    <input type="number" min="0" name="cfa" id="cfa">
+                    <span>
+                        CFA
+                    </span>
+                </div>
+                <div class="montantline">
+                    <label for="euro">Montant Euro</label>
+                    <input type="number" min="0" name="euro" id="euro">
+                    <span>
+                        Euro
+                    </span>
+                </div>
+                <div class="montantline">
+                    <label for="naira">Montant Naira</label>
+                    <input type="number" min="0" name="naira" id="naira">
+                    <span>
+                        Naira
+                    </span>
+                </div>
+                <div class="btnAction">
+                    <div>
+                        <input type="submit" id="send" value="Convertir">
+                    </div>
+                    <div>
+                        <input type="reset" value="Annuler">
+                    </div>
+                </div>
+                <div class="elt"> Les valeurs du marché à la date du 19 Avril 2024 </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
